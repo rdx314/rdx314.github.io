@@ -1,0 +1,271 @@
+#details{
+	position: absolute;
+	overflow-x: hidden;
+}
+@media only screen and (max-width: 900px){
+
+      #details {
+            overflow: auto;
+            height: 100%;
+            overflow-x: hidden;
+       }
+       #main_pic{
+		border: 3px solid #fff;
+	}
+      .name-row{
+      	font-size: 34px;
+      }
+}
+
+@media only screen and (max-width: 600px){
+	#main_pic{
+		border: 1px solid #fff;
+	}
+      .name-row{
+      	font-size: 14px;
+      }
+}
+
+@import url(https://fonts.googleapis.com/css?family=Anonymous+Pro);
+
+.name-row{
+	color: #fff;
+	font-size: 60px;
+	font-family: 'Ubuntu Condensed', sans-serif;
+	opacity: 0.78;
+    transition: all 0.5s ease-in;
+    margin-bottom: 0!important;
+    padding-bottom: 0 !important;
+    position: relative;
+    margin: 0 auto;
+    border-right: 2px solid rgba(255,255,255,.75);
+    white-space: nowrap;
+    overflow: hidden;
+    transform: translateY(-50%); 
+}
+
+.name{
+	color: #f9a027; 
+	font-weight: bold;
+	opacity: 1.0;
+}
+.name:hover{
+	font-weight:bold;
+   color: #f9a027;
+   text-decoration: none !important;
+   opacity: 1.0;
+}
+.hov{
+    animation: typewriter 1.5s steps(44) 0s 1 normal both, blinkTextCursor 0ms steps(44) infinite normal;
+}
+@keyframes typewriter{
+  from{width: 0;}
+  to{width: 100%;}
+}
+.navbar-toggle {
+    display: block;
+}
+
+.navbar-inverse .navbar-header{
+	font-size: 35px; 
+	font-family: 'Muli', sans-serif;
+}
+.navbar-inverse .container-fluid{
+	background: #000;
+}
+.navbar-inverse .collapse .navbar-nav .active a{
+    background: #373737;
+}
+.navbar-inverse .collapse .navbar-nav .active a:hover{
+    background: #373737;
+}
+.navbar-inverse .collapse .navbar-nav a:hover,.navbar-inverse .collapse .navbar-nav a:active{
+	color: #f99309;
+	font-weight: bold;
+} 
+.navbar-inverse .collapse .navbar-nav .active a:hover{
+	color: #f99309;
+	font-weight: bold;
+}
+.navbar-inverse .collapse .navbar-nav .dropdown-menu{
+	background: #000;
+	color: #fff;
+}
+.navbar-inverse .collapse .navbar-nav .dropdown-menu a{
+	color: #fff;
+	font-weight: normal;
+}
+.navbar-inverse .collapse .navbar-nav .dropdown-menu a:hover{
+	background: #000;
+	color: #f99309;
+	font-weight: bold;
+	border-radius: 3px;
+}
+
+#main_pic{
+	margin-top: 5px;
+	border: 6px solid #fff;
+	border-radius: 48%;
+	width: 18%;
+	height: 30%;
+	margin-bottom: 35px;
+    -webkit-transition: -webkit-transform 0.4s ease;
+    -moz-transition: -moz-transform 0.4s ease;
+    -o-transition: -o-transform 0.4s ease;
+    transition: transform 0.4s ease;
+}
+
+#main_pic:hover {
+	-webkit-transform: scale(1.05);
+    -moz-transform: scale(1.05);
+    -ms-transform: scale(1.05);
+    -o-transform: scale(1.05);
+    transform: scale(1.05);
+}
+
+.myInfo{
+     color: #fff;
+     font-size: 20px;
+     text-align: center;
+     padding: 0;
+     margin: 0; 
+    font-family: 'Raleway', sans-serif;
+     margin-top: 0 !important;
+     overflow-y: hidden;
+}
+
+.navbar{
+	background: #000;
+    margin-bottom: 0!important;
+}
+ /* Fixed/sticky icon bar (vertically aligned 50% from the top of the screen) */
+.icon-bar {
+  position: fixed;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+
+/* Style the icon bar links */
+.icon-bar a {
+  display: block;
+  text-align: center;
+  padding: 8px;
+  transition: all 0.3s ease;
+  color: white;
+  font-size: 12px;
+  border: 2px solid #000;
+  border-radius: 60px;
+}
+
+/* Style the social media icons with color, if you want */
+.icon-bar a:hover {
+  color: #fff;
+}
+
+.facebook {
+  background: #3B5998;
+  color: white;
+}
+.facebook:hover {
+	font-size: 15px;
+	color: #fff;
+}
+
+.twitter {
+  background: #2990ff;
+  color: white;
+}
+.twitter:hover {
+	font-size: 15px;
+	color: #fff;
+}
+
+.github {
+  background: #454444;
+  color: white;
+}
+
+.github:hover{
+	font-size: 15px;
+	color: #fff;
+}
+
+.linkedin {
+  background: #0222a1;
+  color: white;
+}
+
+.linkedin:hover {
+	font-size: 15px;
+	color: #fff;
+}
+.blog{
+	background: #f78606;
+	color: #fff;
+}
+.blog:hover {
+    font-size: 15px;
+    color: #fff;
+}
+
+footer{
+	background: #000;
+	color: #fff;
+	text-align: center;
+	font-family: 'Montserrat', sans-serif;
+}
+footer p{
+	padding: 0px;
+	margin: 0px;
+	line-height: 20px;
+}
+footer p a{
+    transition: 0.3s;
+    color: #f9a027;
+}
+footer p a:hover {
+	font-size: 15px;
+   font-weight:bold;
+   color: #f9a027;
+   text-decoration: none !important;
+}
+.brief{
+	margin-top: 50px;
+	text-align: center;
+}
+.fa-laptop-code{
+	color: #f9a027;
+	font-size: 25px;
+	font-weight: bold;
+}
+.fa-heart{
+	color: #f9a027;
+	font-size: 25px;
+	font-weight: bold;
+}
+.head{
+	font-family: 'Ubuntu', sans-serif;
+	font-weight: bold;
+	color: #fff;
+	font-size: 20px;
+	transition: 0.8s;
+}
+.tech .def{
+	color: #fff;
+	font-size: 13px;
+	font-family: 'Montserrat', sans-serif;
+	text-align: left;
+	margin-left: 150px;
+	max-width: 60%;
+}
+.indi .def{
+	color: #fff;
+	font-size: 13px;
+	font-family: 'Montserrat', sans-serif;
+	text-align: left;
+	margin-left: 150px;
+	max-width: 60%;
+}
