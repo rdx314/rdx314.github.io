@@ -28,9 +28,9 @@
 
 @import url(https://fonts.googleapis.com/css?family=Anonymous+Pro);
 
-.name-row{
+#name-row{
 	color: #fff;
-	font-size: 60px;
+	font-size: 4em;
 	font-family: 'Ubuntu Condensed', sans-serif;
 	opacity: 0.78;
     transition: all 0.5s ease-in;
